@@ -1,0 +1,35 @@
+#python
+__pycache__/
+*.pyc
+*.pyo
+
+#node
+frontend/node_modules/
+frontend/dist/
+frontend/public/vad/
+
+#secrets
+backend/data/settings.json
+.env
+.env.local
+.env.*.local
+
+#runtime data
+backend/data/chunks.json
+backend/data/corpus/
+backend/data/models/
+backend/data/training/
+backend/data/_unconfigured/
+backend/data/instructions/
+backend/data/rag/
+backend/data/jobs.json
+backend/data/profiles.json
+backend/unsloth_compiled_cache/
+
+#editor and os
+.claude/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

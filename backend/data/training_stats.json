@@ -1,0 +1,10 @@
+{
+  "base_model": "phi3:mini (3.8B)",
+  "method": "QLoRA, r=16",
+  "dataset_size": 2500,
+  "epochs": 3,
+  "training_minutes": 180,
+  "gpu": "GTX 1660 (egen)",
+  "estimated_cost_usd": 0,
+  "note": "Uppdatera dessa siffror till de faktiska värdena från din egen träningskörning."
+}

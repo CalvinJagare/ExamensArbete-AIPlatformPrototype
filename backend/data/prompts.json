@@ -1,0 +1,32 @@
+[
+  {
+    "id": "current_events",
+    "label": "Aktuell information",
+    "query": "Vilken är den senaste versionen av Python och vad är nytt i den?",
+    "hint": "Visar styrkan hos externa API:er — de har tillgång till färskare information."
+  },
+  {
+    "id": "company_docs",
+    "label": "Företagsspecifik fråga",
+    "query": "Vad står det i företagets policy om distansarbete?",
+    "hint": "Visar varför RAG behövs — proprietära dokument som modellerna inte sett under träning."
+  },
+  {
+    "id": "zx400_display",
+    "label": "ZX-400 (fejkprodukt)",
+    "query": "What display does the ZX-400 have?",
+    "hint": "Påhittad produkt — endast RAG kan svara rätt om dokumentet är uppladdat. Övriga modeller hittar på."
+  },
+  {
+    "id": "domain_style",
+    "label": "Domänspecifik stil",
+    "query": "Skriv ett kort kundsupportsvar till en kund som inte fått sin leverans.",
+    "hint": "Visar styrkan hos finjustering — modellen anpassad till företagets ton och format."
+  },
+  {
+    "id": "general_knowledge",
+    "label": "Allmän kunskap",
+    "query": "Förklara vad maskininlärning är på 50 ord.",
+    "hint": "Visar att den lokala basmodellen klarar generella frågor utan extra hjälp."
+  }
+]
